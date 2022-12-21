@@ -7,8 +7,8 @@ description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
 
 date:
-  start: 2022-03-21
-  end: 2022-03-25
+  start: 2022-01-09
+  end: 2022-01-13
 audience: |
   Open for all, but target audience is clinicians and researchers
   using MTBC sequencing data.
@@ -32,8 +32,9 @@ instructors:
   - dbrites
   - cstritt
   - andreacabibbe
-  - annalenaguske
+  - carolinestoehr
   - andreaspitaleri
+  - federicodimarco
   - GaloGS
   - arashghodousi
   - liliana-rutaihwa
@@ -73,7 +74,7 @@ After the trainings all participants are expected to:
 
 ## Program
 
-This workshop is virtual and asynchronous. Training sessions are pre-recorded and the material provided in advance in the program below. Whenever you're ready to get started, you can access the material by clicking in the respective days of the program. Everyday there are specific slots where you can meet the experts (check the schedule each day), ask questions and discuss ideas.
+This workshop is virtual and asynchronous. Training sessions are pre-recorded and the materials and tutorials are provided in advance. Live sessions will folow the program bellow. Whenever you're ready to get started, you can access the material by clicking in the respective links. Everyday there are specific slots where you can meet the experts (check the schedule each day), ask questions and discuss ideas.
 
 <br>
 
@@ -86,32 +87,33 @@ This workshop is virtual and asynchronous. Training sessions are pre-recorded an
 
 
 ### Day 1 - **WELCOME! And Practical Information**
-*{{"2022-03-21" | date: "%-d %B %Y" }}*
+*{{"2023-01-09" | date: "%-d %B %Y" }}*
 
 Topic | Speaker | Duration
 --- | ---  | ---
-Welcome and course information | All instructors | 5m
 Get ready for the course |  | 5m
+Welcome and course information- live session [here] (https://swisstph.zoom.us/j/84656236451) (**10:30-11:00 am CET**) | All instructors | 30m
+
 
 <br>
 
 ### Day 1  - **Overview of NGS technologies & TB specific NGS solutions**
-*{{"2022-03-21" | date: "%-d %B %Y" }}*
+*{{"2023-01-09" | date: "%-d %B %Y" }}*
 
-Topic | Speaker  | Description | Duration
+Topic | Author/Speaker  | Description | Duration
 --- | --- | --- | ---
 Overview of NGS technologies & TB specific NGS solutions | Andrea Cabibbe  | __Webinar:__ This webinar will introduce different sequencing technologies and what applies best to what kind of problem. | 1h10m
 Implementation of NGS for TB- WHO documents and other  considerations  | Andrea Cabibbe | __Webinar:__ This webinar will summarize the recommendations and considerations available from the WHO documents on the use of NGS for TB| 62m
-Live Discussion [here] (https://swisstph.zoom.us/j/84656236451)  (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&A session:__  How do I choose the right sequencing technology for my samples? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis? | 2h
+Live Discussion [here] (https://swisstph.zoom.us/j/84656236451)  (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&A session:__  How do I choose the right sequencing technology for my samples? Best pratices in the lab? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis? | 2h
 
 <br>
 
 ### Day 2 - **Mapping and variant calling**
-*{{"2022-03-22" | date: "%-d %B %Y" }}*
+*{{"2023-01-10" | date: "%-d %B %Y" }}*
 
-Topic | Speaker  | Description | Duration
+Topic | Author/Speaker  | Description | Duration
 --- | --- | --- | ---
-A very short introduction to Galaxy | Anton Nekrutenko | __Webinar:__ This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it | 10m
+A very short introduction to Galaxy | Anton Nekrutenko | __Webinar:__ You will need to use Galaxy for the bioinformatics tutorials. This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it | 10m
 Galaxy 101 | Anton Nekrutenko | __Hands-on:__ *This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days| 1h15m
 Mapping and Variant calling  | Daniela Brites | __Video:__ llumina sequencing principles.  __Webinar:__ Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC | 45m
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**) | Daniela Brites & Galo Goig | **Q&A session**| 1h
@@ -122,47 +124,47 @@ Live discussion [here](https://swisstph.zoom.us/j/84656236451)| Daniela Brites &
 <br>
 
 ### Day 3 - **Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission**
-*{{"2022-03-23" | date: "%-d %B %Y" }}*
+*{{"2023-01-11" | date: "%-d %B %Y" }}*
 
 
-Topic | Speaker | Description | Duration
+Topic | Author/Speaker | Description | Duration
 --- | --- | --- | ---
 Drug resistance prediction  | Galo A. Goig | __Webinar:__ This video will introduce principles of drug resistance detection from genomic data | 15m
 Phylogenetic and compensatory mutations | Galo A. Goig | __Webinar:__ This video will introduce two types of mutations to take into account when studying drug resistance patterns | 15m
 The concept of clustering | Galo A. Goig | __Webinar:__ Main aspects of clustering analysis to infer transmission in MTBC | 15m
 Genetic distance thresholds | Galo A. Goig | __Webinar:__ Clustering as an approximation to infer transmission| 25m
 Performing clustering analysis & drug resistance prediction | Galo A. Goig  | __Hands-on:__ Learning how to do clustering analysis and interpret drug resistance patterns | 2h
-Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Galo A. Goig & Christop Stritt  |**Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Galo A. Goig & Daniela Brites  |**Q&A Live session**| 1h
 Introduction to phylogenetics | EMBL-EBI| __Recommended hands-on:__ https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/ | 1h
 Inference of phylogenetic trees | Christoph Stritt |  __Hands-on:__ Main principles of phylogenetic inference, tree interpretation | 1h
-Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**) |  Christop Stritt & Galo A. Goig  |  **Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**) |  Daniela Brites & Galo A. Goig  |  **Q&A Live session**| 1h
 {:.table.table-striped}
 
 <br>
 
 ### Day 4 - **Webtools dedicated to MTBC bioinformatics & Be a bioinformatician in the jungle**
-*{{"2022-03-24" | date: "%-d %B %Y" }}*
+*{{"2023-01-12" | date: "%-d %B %Y" }}*
 
-Topic | Speaker  | Description | Duration
+Topic | Author/Speaker  | Description | Duration
 --- | --- | --- | ---
 Web tools for analysis of MTBC sequenced data | Arash Ghodousi | __Webinar:__ This video will introduce web tools designed for analysis of MTBC sequenced data |  50m
 Introduction to the MTBseq pipeline  | Arash Ghodousi  | __Webinar:__ Introduction the MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants in MTBC | 30m
 Demonstration of data analysis using the webtools| Arash Ghodousi |__Webinar:__  Learning how to analyze and interpret sequenced data by webtools| 45m
-Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Andrea Spitaleri| **Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Arash Ghodousi & Federico Di Marco | **Q&A Live session**| 1h
 Introduction to linux | Andrea Spitaleri | __Webinar:__ Introduction to Linux OS: installation and usage | 30m
 How to run programs (Python, Docker, Singularity) |  Andrea Spitaleri  |  __Webinar:__ Learning how to install and use programs to analyze data| 30m
 Demo video on how to use the shell commands | Andrea Spitaleri |__Webinar:__  Demo video on how to use the shell commands | 25m
 The Unix Shell (optional) | Software carpentries  |  Recommended **hands-on** tutorial from software carpentries| 4h
-Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**)| Andrea Spitaleri & Arash Ghodousi |  **Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**)| Arash Ghodousi & Federico Di Marco |  **Q&A Live session**| 1h
 
 {:.table.table-striped}
 
 <br>
 
 ### Day 5 - Live Discussion (optional)
-*{{"2022-03-25" | date: "%-d %B %Y" }}*
+*{{"2022-01-13" | date: "%-d %B %Y" }}*
 
-All instructors available from **10:00h-12:30** CET [here](https://swisstph.zoom.us/j/84656236451) 
+Joint discussion. Bring your questions! We will be happy to give you advice if we can. All instructors available from **10:00h-12:30** CET [here](https://swisstph.zoom.us/j/84656236451) 
 
 <br>
 
